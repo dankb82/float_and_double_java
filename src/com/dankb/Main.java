@@ -15,5 +15,11 @@ public class Main {
 
         //double has 16 decimal point precision
         System.out.println("myDoubleValue = " + myDoubleValue);
+
+        //challenge
+
+        double pounds = 10d;
+        double kilograms = pounds * 0.45359237d;
+        System.out.println(" 10 pounds  = " + kilograms + " kilograms");
     }
 }
